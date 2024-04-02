@@ -1,10 +1,17 @@
 body {
-  background-color: #f9f7fe;
-  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("https://d1hjkbq40fs2x4.cloudfront.net/2017-04-03/files/wave-photography_1539.jpg");
+  background-size: cover;
+  background-position: center;
+
+  background-position: center 50px;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a {
-  color: #885df1;
+  color: rgb(23, 18, 131);
+  opacity: 0.9;
 }
 
 .container {
@@ -14,17 +21,19 @@ a {
 
 h1 {
   text-align: center;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
+  color: black;
+  opacity: 0.8;
 }
 
 .form-container {
   background-color: white;
   margin-bottom: 30px;
   border-radius: 10px;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  opacity: 0.7;
+
   padding: 15px 20px;
 }
 
@@ -51,7 +60,8 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: black;
+  opacity: 0.9;
   color: white;
   border: none;
   width: 150px;
@@ -64,8 +74,9 @@ form {
   font-size: 16px;
   background-color: white;
   padding: 20px;
+  opacity: 0.6;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid black;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
@@ -75,8 +86,9 @@ form {
 
 footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   margin: 30px;
+  opacity: 0.8;
 }
 
 .generating {
