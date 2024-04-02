@@ -16,9 +16,10 @@
 
 
     <main>
+      <div class="form-container">
       <form id="poem-generator-form">
 <input type="text" 
-placeholder="Enter the topic of the poem" 
+placeholder="Enter the topic of a poem" 
 autofocus 
 required
 autocomplete="off"
@@ -27,8 +28,12 @@ id="user-instructions"
 />
 <input type="submit" class="submit-button"/>
 
+      
+      
       </form> 
-      <div class="poem" id="poem">
+      <div class="hint">i.e: Flower, Love or Peace</div>
+      </div>
+      <div class="poem hidden blink" id="poem">
 
       </div> 
     </main>
